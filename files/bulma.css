@@ -8042,7 +8042,7 @@ label.panel-block:hover {
   }
 }
 
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 1024px), print {
   .column.is-narrow, .column.is-narrow-tablet {
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -10106,7 +10106,7 @@ iframe{
 .has-text-centered.is-size-5{
   width: 100%;
 }
-@media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 1024px) {
     .card{
       margin-right: 0px;
     }
