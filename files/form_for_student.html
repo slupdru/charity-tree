@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Благотворительная ёлка</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bulma.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body_in_form">
+	<header class="navbar" id="navbarid">
+			<div class="container nav-cont">
+				<a href="index.html"><img class = "logo_in_navbar" src="../image/yolka-logo-text-white.png"></a>
+			</div>
+	</header>
+
+<main class="main_in_form">
+  <div class="container my_centered">
+    <form class="form_for_student" action="thanks.html" method="POST">
+
+      <div class="field">
+        <label class="label">ФИО</label>
+        <div class="control has-icons-left has-icons-right">
+          <input required class="input myinput" id="test" type="text"  placeholder="Иванов Иван Иванович" name="FIO">
+          <span class="icon is-small is-left">
+            <i class="fa fa-user"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fa fa-check"></i>
+          </span>
+        </div>
+      </div>
+      
+      
+      <div class="field">
+        <label class="label">Факультет</label>
+        <div class="control">
+          <div class="select">
+            <select required class="myselect">
+              <option value="none">Выберете:</option>
+              <option valne="1">Факультет математической экономики, статистики и информатики</option>
+              <option valne="2">Финансовый факультет</option>
+              <option valne="3">Факультет электронного обучения</option>
+              <option valne="4">Факультет экономики торговли и товароведения</option>
+              <option valne="5">Факультет экономики и права</option>
+              <option valne="6">Факультет менеджмента</option>
+              <option valne="7">Факультет маркетинга</option>
+              <option valne="8">Факультет дополнительного профессионального образования</option>
+              <option valne="9">Факультет дистанционного обучения</option>
+              <option valne="10">Факультет гостинично-ресторанной, туристической и спортивной индустрии</option>
+              <option valne="11">Факультет бизнеса «Капитаны»</option>
+              <option valne="12">Факультет «Плехановская школа бизнеса «Integral»»</option>
+              <option valne="13">Факультет «Бизнес-школа маркетинга и предпринимательства»</option>
+              <option valne="14">Институт управления и социально-экономического проектирования​</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Телефон</label>
+        <div class="control has-icons-left has-icons-right">
+          <input required class="input myinput" type="text" name="phone" value="+7">
+          <span class="icon is-small is-left">
+            <i class="fa fa-mobile"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fa fa-check"></i>
+          </span>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Ссылка ВК</label>
+        <div class="control has-icons-left has-icons-right">
+          <input required class="input myinput" type="text" name="vklink" value="https://vk.com/">
+          <span class="icon is-small is-left">
+            <i class="fa fa-vk"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fa fa-check"></i>
+          </span>
+        </div>
+     </div>
+     
+     
+      <div class="control button_in_form_container">
+        <button class="button is-link button_in_form">Отправить</button>
+      </div>
+
+    </form>
+	</div>
+</main>
+
+<footer class="myfooter">
+  <div class="container">
+  	<div class="text_of_logo_footer is-size-4 has-text-white">IT Center</div>
+    <img class="logo_in_footer" src="../image/Center_2.png">
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

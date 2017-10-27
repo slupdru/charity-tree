@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Благотворительная ёлка</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bulma.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body_in_form">
+	<header class="navbar" id="navbarid">
+			<div class="container nav-cont">
+				<a href="index.html"><img class = "logo_in_navbar" src="../image/yolka-logo-text-white.png"></a>
+			</div>
+	</header>
+
+<main class="main_in_form">
+  <div class="container my_centered">
+    <h2 class="is-4 title">Введите данные о ребенке:</h2>
+    <form class="form_for_student" action="children.php" method="POST">
+
+      <div class="field">
+        <label class="label">ФИО</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input myinput" id="test" type="text"  placeholder="Иванов Иван Иванович" name="FIO_child">
+          <span class="icon is-small is-left">
+            <i class="fa fa-user"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fa fa-check"></i>
+          </span>
+        </div>
+      </div>
+      
+      
+      <div class="field">
+        <label class="label">id</label>
+        <div class="control has-icons-right">
+          <input class="input myinput" type="text" name="id">
+          <span class="icon is-small is-right">
+            <i class="fa fa-check"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Возраст (лет)</label>
+        <div class="control has-icons-right">
+          <input class="input myinput" type="text" name="age">
+          <span class="icon is-small is-right">
+            <i class="fa fa-check"></i>
+          </span>
+        </div>
+     </div>
+      
+      <div class="field">
+        <label class="label">Подарок:</label>
+        <div class="control has-icons-right">
+          <input class="input myinput" type="text" name="gift">
+          <span class="icon is-small is-right">
+            <i class="fa fa-check"></i>
+          </span>
+        </div>
+     </div>
+     
+     
+      <div class="control button_in_form_container">
+        <button class="button is-link button_in_form">Отправить</button>
+      </div>
+
+    </form>
+	</div>
+</main>
+
+<footer class="myfooter">
+  <div class="container">
+  	<div class="text_of_logo_footer is-size-4 has-text-white">IT Center</div>
+    <img class="logo_in_footer" src="../image/Center_2.png">
+  </div>
+</footer>
+
+</body>
+</html>

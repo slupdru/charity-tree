@@ -1,0 +1,238 @@
+/*Страница index*/
+
+.name_of_child_container{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.FIO{
+  font-size: 2rem;
+}
+.age_of_child{
+  font-size: 1rem;
+}
+.logo_in_navbar{
+height: 6em;
+margin-top: 1rem;
+margin-bottom: 0.5rem;
+}
+.logo_in_footer{
+height: 6em;
+}
+.text_of_logo_footer{
+margin-right: 1rem;
+opacity: 0.9;
+}
+.myfooter>.container{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.myfooter{
+  background-color: #293a58;
+
+flex: 0 0 auto;
+}
+.button_in_card{
+  background-color:  #293a58;
+  color: white;
+  width:90%;
+}
+iframe{
+  width: 100%;
+  height: auto;
+}
+#navbarid{
+  background-color: #293a58;
+}
+.p-button{
+  margin-top:1rem;
+  text-align: center;
+}
+.text-in-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  text-align: center;
+}
+.number-of-child-conteiner{
+  position: absolute;
+  top:0px;
+  left:0px;
+  background-color: white;
+  border-radius: 0px 0px 50px 0px;
+  border:10px  #293a58 solid;
+  border-top: none;
+  border-left: none;
+  background-color:  #293a58;
+  color: white;
+}
+.card{
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+.text_about_gift_container{
+  width: 100%;
+}
+
+@media screen and (max-width: 1216px) {
+.FIO{
+  font-size: 1.45rem;
+
+}
+ .logo_in_navbar{
+  margin-left: 1rem;
+ }
+.text_about_gift_container>span{
+  font-size: 1rem;
+}
+.age_of_child{
+  margin-left: 0.7rem;
+}
+.name_of_child_container{
+  margin-bottom: 0.8rem;
+}
+}
+
+@media screen and (max-width: 779px) {
+    .card{
+      margin-right: 0px;
+    }
+    .logo_in_navbar{
+      margin-left: 1rem;
+    }
+    .name_of_child_container{
+     margin-bottom: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 493px) {
+.FIO{
+  font-size: 1.2rem;
+
+}
+.text_about_gift_container>span{
+  font-size: 0.9rem;
+}
+.age_of_child{
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+.number-of-child-conteiner>span{
+  font-size: 1rem;
+}
+.name_of_child_container{
+     margin-bottom: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 419px) {
+.FIO{
+  font-size: 1.1rem;
+}
+.text_about_gift_container>span{
+  font-size: 0.7rem;
+}
+.age_of_child{
+  margin-left: 0.35rem;
+  font-size: 0.7rem;
+}
+.number-of-child-conteiner>span{
+  font-size: 0.9rem;
+}
+}
+
+@media screen and (max-width: 384px) {
+.column.is-my-mobile-style {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+  }
+.FIO{
+  font-size: 1.5rem;
+
+}
+.text_about_gift_container>span{
+  font-size: 1.2rem;
+}
+.age_of_child{
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.number-of-child-conteiner>span{
+  font-size: 1.2rem;
+}
+}
+
+
+/*
+Страница form_for_student*/
+
+.main_in_form{
+  margin-top:2rem;
+  flex: 1 0 auto;
+  display: flex;
+  margin-bottom: 2rem;
+
+}
+.container.my_centered{
+  max-width: 700px;
+}
+.body_in_form{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.button_in_form_container{
+  text-align: center;
+}
+.button.is-link.button_in_form{
+  width: 50%;
+  background-color: #293a58;
+  margin-top: 0.5rem;
+}
+.myselect{
+  width: 700px;
+}
+
+@media screen and (max-width: 750px) {
+.myselect{
+  width: 100%;
+}
+.form_for_student{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+}
+
+
+
+
+
+/*Страница thanks*/
+.thanks_text{
+  margin-bottom: 1.5rem;
+}
+.thanks_instruction{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+
+
+/* Страница table*/
+.my_table th,
+.my_table td{
+    text-align: center;
+}
+
+.container.table_container{
+  display: flex;
+  justify-content: center;
+}
+
+
+
