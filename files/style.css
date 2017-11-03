@@ -38,9 +38,24 @@ flex: 0 0 auto;
   color: white;
   width:90%;
 }
-iframe{
-  width: 100%;
-  height: auto;
+.button_in_card:hover{
+  color: #99bdf7
+}
+.my_video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+  margin-bottom: 3rem;
+}
+
+.my_video-container iframe, .my_video-container object, .my_video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
 #navbarid{
   background-color: #293a58;
